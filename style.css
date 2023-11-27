@@ -53,19 +53,20 @@ ul li {
   display: flex;
   align-items: center;
   border-radius: 20px;
+  position: relative;
 }
 
 ul .fa-check {
   position: absolute;
-  right: 100px;
+  right: 40px;
   color: green;
   cursor: pointer;
 }
 
 ul .fa-trash {
   position: absolute;
-  right: 70px;
-  color: rgb(255, 0, 0);
+  right: 10px;
+  color: red;
   cursor: pointer;
 }
 
