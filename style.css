@@ -48,8 +48,11 @@ main {
 ul li {
   height: 30px;
   color: #080d3f;
-  margin: 0px 24px;
+  margin: 10px 24px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
 }
 
 ul .fa-check {
@@ -64,4 +67,11 @@ ul .fa-trash {
   right: 70px;
   color: rgb(255, 0, 0);
   cursor: pointer;
+}
+
+ul .checked {
+  background: #145695;
+  color: white;
+  text-decoration: line-through;
+  transition: 0.015s;
 }
