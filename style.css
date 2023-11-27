@@ -44,3 +44,24 @@ main {
 #input::placeholder {
   color: rgba(235, 235, 235, 0.915);
 }
+
+ul li {
+  height: 30px;
+  color: #080d3f;
+  margin: 0px 24px;
+  padding: 10px;
+}
+
+ul .fa-check {
+  position: absolute;
+  right: 100px;
+  color: green;
+  cursor: pointer;
+}
+
+ul .fa-trash {
+  position: absolute;
+  right: 70px;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
