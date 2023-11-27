@@ -8,4 +8,12 @@ $(document).ready(function () {
     );
     $(this).val("");
   });
+
+  $("ul").on("click", ".fa-trash", function () {
+    $(this).parent("li").fadeOut(150);
+  });
+
+  $("ul").on("click", ".fa-check", function () {
+    $(this).parent("li").toggleClass("checked");
+  });
 });
